@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testCases.AmazonPracticeTestCase">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="verifyDeptCellPhonesAndMenu"/>
+          <include name="selectFiletersForCellPhones"/>
+        </methods>
+      </class> <!-- testCases.AmazonPracticeTestCase -->
+      <class name="testCases.HandleExcelTestCase">
+        <methods>
+          <include name="getInputDataFromExcel"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- testCases.HandleExcelTestCase -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

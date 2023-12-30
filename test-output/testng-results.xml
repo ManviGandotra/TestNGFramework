@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-29T10:36:51 EST" name="Suite" finished-at="2023-12-29T10:37:07 EST" duration-ms="16556">
+    <groups>
+    </groups>
+    <test started-at="2023-12-29T10:36:51 EST" name="Test" finished-at="2023-12-29T10:37:07 EST" duration-ms="16556">
+      <class name="testCases.SecondTestCase">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testCases.SecondTestCase@654d8173]" started-at="2023-12-29T10:36:51 EST" name="openBrowser" finished-at="2023-12-29T10:36:52 EST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyTitle()[pri:1, instance:testCases.SecondTestCase@654d8173]" started-at="2023-12-29T10:36:52 EST" name="verifyTitle" finished-at="2023-12-29T10:36:52 EST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="openHomeAccessories()[pri:3, instance:testCases.SecondTestCase@654d8173]" started-at="2023-12-29T10:36:52 EST" name="openHomeAccessories" finished-at="2023-12-29T10:36:55 EST" duration-ms="2742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomeAccessories -->
+        <test-method signature="verifyHomeAccessoriesTitle()[pri:6, instance:testCases.SecondTestCase@654d8173]" started-at="2023-12-29T10:36:55 EST" name="verifyHomeAccessoriesTitle" finished-at="2023-12-29T10:36:55 EST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeAccessoriesTitle -->
+        <test-method signature="addProductToCart()[pri:9, instance:testCases.SecondTestCase@654d8173]" started-at="2023-12-29T10:36:55 EST" name="addProductToCart" finished-at="2023-12-29T10:37:02 EST" duration-ms="7271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+      </class> <!-- testCases.SecondTestCase -->
+      <class name="testCases.FirstTestCase">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testCases.FirstTestCase@62e70ea3]" started-at="2023-12-29T10:36:51 EST" name="openBrowser" finished-at="2023-12-29T10:36:51 EST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyTitle()[pri:3, instance:testCases.FirstTestCase@62e70ea3]" started-at="2023-12-29T10:37:02 EST" name="verifyTitle" finished-at="2023-12-29T10:37:02 EST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifySearchButton()[pri:8, instance:testCases.FirstTestCase@62e70ea3]" started-at="2023-12-29T10:37:02 EST" name="verifySearchButton" finished-at="2023-12-29T10:37:03 EST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchButton -->
+        <test-method signature="verifyProduct()[pri:12, instance:testCases.FirstTestCase@62e70ea3]" started-at="2023-12-29T10:37:03 EST" name="verifyProduct" finished-at="2023-12-29T10:37:03 EST" depends-on-methods="testCases.FirstTestCase.verifySearchButton" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProduct -->
+        <test-method signature="addProductToCart()[pri:15, instance:testCases.FirstTestCase@62e70ea3]" started-at="2023-12-29T10:37:03 EST" name="addProductToCart" finished-at="2023-12-29T10:37:07 EST" depends-on-methods="testCases.FirstTestCase.verifyProduct" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+      </class> <!-- testCases.FirstTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
